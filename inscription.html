@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Registre_Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/register.css">
+        <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed|Khand" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    </head>
+    <body>
+        <section class="Registre">
+            <div class="container">
+                <div class="row_main_row">
+                    <div class="first_etape">
+                        <h1>INSCRIPTION</h1>
+                        <form>
+                            <input type="text" placeholder="NOM">
+                            <input type="text" placeholder="PRENOM">
+                            <input type="text" placeholder="EMAIL">
+                            <input type="password" placeholder="PASSEWORD">
+                            <a class="buton" href="#">SUIVANT</a>
+                            <p>J'ai deja un compte !<a href="connexion.html"> Sign In</a></p>
+                        </form>
+                    </div>
+                    <div class="second_etape" style="display: none">
+                        <h1>INFORMATIONS PERSONELLES</h1>
+                        <form>
+                            <input type="text" placeholder="ADRESSE">
+                            <input type="text" placeholder="ARONDISSEMENT">
+                            <input type="text" placeholder="N° DE VOIE">
+                            <input type="text" placeholder="TELEPHONE">
+                            <div class="but">
+                                <a href="#" class="return">BACK</a>
+                                <a href="index.html" class="submit">SOUMETTRE</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script>
+            $('.buton').click(function(){
+                $('.first_etape').hide();
+                $('.second_etape').toggle();
+            });
+            
+            $('.return').click(function(){
+                $('.second_etape').hide();
+                $('.first_etape').toggle();
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,1024 @@
+body {
+  margin: 0;
+  padding: 0; }
+  body .navbar {
+    position: fixed;
+    width: 100%; }
+    body .navbar .row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; }
+      body .navbar .row .logo {
+        margin: 20px 0 10px 0; }
+      body .navbar .row .items {
+        margin: 20px 0 10px 0; }
+        body .navbar .row .items ul {
+          list-style: none;
+          display: flex;
+          flex-direction: row; }
+          body .navbar .row .items ul li {
+            display: flex; }
+            body .navbar .row .items ul li a {
+              text-decoration: none;
+              color: #b1b3b9;
+              margin: 0 20px 0 20px;
+              font-size: 20px;
+              font-weight: 500;
+              text-transform: uppercase;
+              font-family: 'Khand'; }
+      body .navbar .row .registre {
+        margin: 20px 0 10px 0; }
+        body .navbar .row .registre ul {
+          list-style: none;
+          display: flex;
+          flex-direction: row; }
+          body .navbar .row .registre ul li {
+            display: flex; }
+            body .navbar .row .registre ul li a {
+              text-decoration: none;
+              color: #b1b3b9;
+              margin: 0 20px 0 20px;
+              font-size: 20px;
+              font-weight: 500;
+              text-transform: uppercase;
+              font-family: 'Khand'; }
+  body .home {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 1024px;
+    background-image: url(/images/Home_Cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed; }
+    body .home .gradient {
+      width: 100%;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      background: linear-gradient(45deg, rgba(1, 65, 54, 0.9) 0%, rgba(2, 116, 95, 0.9) 62%, rgba(2, 116, 95, 0.9) 100%); }
+      body .home .gradient .container {
+        width: 80%;
+        display: flex;
+        align-content: center;
+        justify-content: center; }
+        body .home .gradient .container .row_main_row {
+          display: flex;
+          flex-direction: row;
+          align-content: center;
+          justify-content: center; }
+          body .home .gradient .container .row_main_row .presentation {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            width: 50%; }
+            body .home .gradient .container .row_main_row .presentation h1 {
+              color: white;
+              font-size: 50px;
+              font-family: 'Khand';
+              font-weight: bolder;
+              margin: 200px 0 100px 0; }
+            body .home .gradient .container .row_main_row .presentation p {
+              color: white;
+              font-size: 20px;
+              margin: 50px 20px 50px 20px;
+              border: 2px solid white;
+              padding: 50px; }
+          body .home .gradient .container .row_main_row .horraires {
+            text-align: center;
+            width: 50%; }
+            body .home .gradient .container .row_main_row .horraires h3 {
+              color: white;
+              font-family: 'Cabin Condensed';
+              font-size: 40px;
+              margin: 250px 0 100px 0; }
+            body .home .gradient .container .row_main_row .horraires li {
+              list-style: none;
+              color: white;
+              margin: 20px 0 20px 0; }
+  body .fonctionement {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: auto; }
+    body .fonctionement .container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 80%;
+      text-align: center; }
+      body .fonctionement .container h1 {
+        color: #014034;
+        font-size: 50px;
+        font-family: 'Khand';
+        font-weight: bolder;
+        margin: 100px 0 100px 0; }
+      body .fonctionement .container .row_main_row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center; }
+        body .fonctionement .container .row_main_row .first_row .etape {
+          margin: 100px 20px 100px 20px;
+          box-shadow: 4px 6px 5px 0px #b1b3b9; }
+          body .fonctionement .container .row_main_row .first_row .etape h3 {
+            font-family: 'Cabin Condensed';
+            margin: 20px 20px 50px 20px; }
+          body .fonctionement .container .row_main_row .first_row .etape img {
+            margin: 20px 0 20px 0; }
+          body .fonctionement .container .row_main_row .first_row .etape p {
+            padding: 30px 20px 30px 20px; }
+        body .fonctionement .container .row_main_row .second_row .etape {
+          margin: 100px 20px 100px 20px;
+          box-shadow: 4px 6px 5px 0px #b1b3b9; }
+          body .fonctionement .container .row_main_row .second_row .etape h3 {
+            font-family: 'Cabin Condensed';
+            margin: 20px 20px 50px 20px; }
+          body .fonctionement .container .row_main_row .second_row .etape img {
+            margin: 20px 0 20px 0; }
+          body .fonctionement .container .row_main_row .second_row .etape p {
+            padding: 30px 20px 30px 20px; }
+  body .services {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px; }
+    body .services .container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 80%;
+      text-align: center; }
+      body .services .container h1 {
+        color: #014034;
+        font-size: 50px;
+        font-family: 'Khand';
+        font-weight: bolder;
+        margin: 100px 0 100px 0; }
+      body .services .container .row_main_row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center; }
+        body .services .container .row_main_row .service {
+          display: flex;
+          align-content: center;
+          text-align: center;
+          width: 100%; }
+          body .services .container .row_main_row .service .service_1 {
+            width: 33%; }
+            body .services .container .row_main_row .service .service_1 img {
+              margin: 20px 20px 20px 20px; }
+            body .services .container .row_main_row .service .service_1 h3 {
+              color: #014034;
+              font-family: 'Cabin Condensed';
+              margin: 30px 20px 30px 20px; }
+            body .services .container .row_main_row .service .service_1 a {
+              display: inline-block;
+              padding: 12px 18px;
+              text-decoration: none;
+              position: relative;
+              border: 2px solid #445561;
+              border-radius: 3px;
+              text-transform: uppercase;
+              letter-spacing: 0.1em;
+              text-align: left;
+              color: #014034;
+              overflow: hidden;
+              font-family: 'Khand';
+              z-index: 0; }
+              body .services .container .row_main_row .service .service_1 a:before, body .services .container .row_main_row .service .service_1 a:after {
+                content: attr(wipe);
+                padding-top: inherit;
+                padding-bottom: inherit;
+                white-space: nowrap;
+                position: absolute;
+                top: 0;
+                overflow: hidden;
+                color: #F1F1F2;
+                background: #014034; }
+              body .services .container .row_main_row .service .service_1 a:before {
+                left: 0;
+                text-indent: 18px;
+                width: 0; }
+              body .services .container .row_main_row .service .service_1 a:after {
+                padding-left: inherit;
+                padding-right: inherit;
+                left: 100%;
+                text-indent: calc(-100% - 36px);
+                transition: 0.2s ease-in-out; }
+              body .services .container .row_main_row .service .service_1 a:hover:before {
+                width: 100%;
+                transition: width 0.2s ease-in-out; }
+              body .services .container .row_main_row .service .service_1 a:hover:after {
+                left: 0;
+                text-indent: 0;
+                transition: 0s 0.2s ease-in-out; }
+  body .job {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: auto;
+    background-image: url(/images/bycicle_delivery.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px; }
+    body .job .gradient {
+      width: 100%;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      background: linear-gradient(45deg, rgba(1, 65, 54, 0.9) 0%, rgba(2, 116, 95, 0.9) 62%, rgba(2, 116, 95, 0.9) 100%); }
+      body .job .gradient .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        text-align: center; }
+        body .job .gradient .container h1 {
+          color: #f1f1f2;
+          font-size: 50px;
+          font-family: 'Khand';
+          font-weight: bolder;
+          margin: 0 0 100px 0; }
+        body .job .gradient .container .row_main_row {
+          flex-direction: column;
+          justify-content: center;
+          align-content: center;
+          text-align: center; }
+          body .job .gradient .container .row_main_row p {
+            color: #f1f1f2;
+            margin: 50px 0 100px 0; }
+          body .job .gradient .container .row_main_row a {
+            padding: 12px 18px;
+            text-decoration: none;
+            position: relative;
+            border: 2px solid #f1f1f2;
+            border-radius: 3px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            text-align: center;
+            color: #f1f1f2;
+            font-family: 'Khand';
+            margin: 50px 0 50px 0;
+            width: 15%;
+            z-index: 0; }
+            body .job .gradient .container .row_main_row a:hover {
+              background-color: #f1f1f2;
+              color: #014034; }
+  body .livraison {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px; }
+    body .livraison .container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 80%;
+      text-align: center; }
+      body .livraison .container h1 {
+        color: #014034;
+        font-size: 50px;
+        font-family: 'Khand';
+        font-weight: bolder;
+        margin: 100px 0 100px 0; }
+      body .livraison .container .row_main_row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        background-image: url(/images/plan_paris.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: 700px; }
+  body .commande {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: auto; }
+    body .commande .container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+      text-align: center; }
+      body .commande .container h1 {
+        color: #014034;
+        font-size: 50px;
+        font-family: 'Khand';
+        font-weight: bolder;
+        margin: 100px 0 100px 0; }
+      body .commande .container .row_main_row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%; }
+        body .commande .container .row_main_row .step_1 {
+          width: 33%; }
+          body .commande .container .row_main_row .step_1 h3 {
+            color: #014034;
+            font-family: 'Cabin Condensed';
+            margin: 30px 20px 30px 20px; }
+          body .commande .container .row_main_row .step_1 form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 25px; }
+            body .commande .container .row_main_row .step_1 form input {
+              margin: 20px 0 10px 0;
+              text-align: center;
+              color: #014034; }
+        body .commande .container .row_main_row .step_2 {
+          display: flex;
+          flex-direction: column;
+          width: 50%;
+          align-items: center; }
+          body .commande .container .row_main_row .step_2 h3 {
+            color: #014034;
+            font-family: 'Cabin Condensed';
+            margin: 30px 20px 30px 20px; }
+          body .commande .container .row_main_row .step_2 .sub_form {
+            display: flex;
+            margin: 50px 0px 50px 0; }
+            body .commande .container .row_main_row .step_2 .sub_form .choix_1 {
+              margin: 20px;
+              padding: 10px; }
+            body .commande .container .row_main_row .step_2 .sub_form .choix_2 {
+              margin: 20px; }
+            body .commande .container .row_main_row .step_2 .sub_form .choix_3 {
+              margin: 20px; }
+            body .commande .container .row_main_row .step_2 .sub_form .choix_4 {
+              margin: 20px; }
+          body .commande .container .row_main_row .step_2 .time {
+            display: flex;
+            flex-direction: row;
+            align-items: center; }
+            body .commande .container .row_main_row .step_2 .time span {
+              font-family: 'Khand';
+              color: #014034; }
+            body .commande .container .row_main_row .step_2 .time input {
+              margin: 20px 20px 20px 20px;
+              font-family: 'Khand'; }
+          body .commande .container .row_main_row .step_2 .bouton {
+            padding: 12px 18px;
+            position: relative;
+            border: 2px solid #f1f1f2;
+            border-radius: 3px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            text-align: center;
+            color: #f1f1f2;
+            font-family: 'Khand';
+            margin: 50px 0 50px 0;
+            width: 15%;
+            z-index: 0; }
+            body .commande .container .row_main_row .step_2 .bouton:hover {
+              background-color: #f1f1f2;
+              color: #014034; }
+            body .commande .container .row_main_row .step_2 .bouton a {
+              text-decoration: none;
+              color: #014034; }
+  body .footer {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: #0C2733; }
+    body .footer .container {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      width: 100%;
+      text-align: center; }
+      body .footer .container .location {
+        display: flex;
+        align-content: center;
+        width: 33%;
+        flex-direction: column; }
+        body .footer .container .location h3 {
+          color: #f1f1f2;
+          font-family: 'Cabin Condensed';
+          margin: 30px 20px 30px 20px; }
+        body .footer .container .location ul {
+          display: flex;
+          flex-direction: column;
+          align-self: center; }
+          body .footer .container .location ul li {
+            list-style: none;
+            color: #f1f1f2;
+            left: 50px;
+            margin: 10px 0 0 0;
+            text-align: left;
+            font-family: 'Khand'; }
+            body .footer .container .location ul li i {
+              margin: 10px 10px 0 0; }
+      body .footer .container .reseau_sociaux {
+        display: flex;
+        align-content: center;
+        width: 33%;
+        flex-direction: column;
+        text-align: center; }
+        body .footer .container .reseau_sociaux h3 {
+          color: #f1f1f2;
+          font-family: 'Cabin Condensed';
+          margin: 30px 20px 30px 20px; }
+        body .footer .container .reseau_sociaux ul {
+          display: flex;
+          flex-direction: row;
+          align-self: center; }
+          body .footer .container .reseau_sociaux ul li {
+            list-style: none;
+            color: #f1f1f2;
+            margin: 20px 20px;
+            text-align: center; }
+            body .footer .container .reseau_sociaux ul li i {
+              font-size: 3em; }
+      body .footer .container .About {
+        display: flex;
+        align-content: center;
+        width: 33%;
+        flex-direction: column;
+        text-align: center; }
+        body .footer .container .About h3 {
+          color: #f1f1f2;
+          font-family: 'Cabin Condensed';
+          margin: 30px 20px 30px 20px; }
+        body .footer .container .About p {
+          color: #f1f1f2;
+          margin: 10px;
+          font-family: 'Khand'; }
+    body .footer p {
+      color: #f1f1f2;
+      font-family: 'Khand'; }
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0; }
+    body .navbar {
+      position: fixed;
+      width: 100%; }
+      body .navbar .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 60px; }
+        body .navbar .row .logo {
+          margin: 5px 0 10px 0; }
+        body .navbar .row .items {
+          margin: 10px 0 10px 0; }
+          body .navbar .row .items ul {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            text-align: center; }
+            body .navbar .row .items ul li {
+              display: flex; }
+              body .navbar .row .items ul li a {
+                text-decoration: none;
+                color: #b1b3b9;
+                font-size: 10px;
+                font-weight: 250;
+                text-transform: uppercase;
+                font-family: 'Khand'; }
+        body .navbar .row .registre {
+          width: 40%;
+          margin: 10px 0 10px 0; }
+          body .navbar .row .registre ul {
+            list-style: none;
+            display: flex;
+            flex-direction: row; }
+            body .navbar .row .registre ul li {
+              display: flex; }
+              body .navbar .row .registre ul li a {
+                text-decoration: none;
+                color: #b1b3b9;
+                font-size: 10px;
+                font-weight: 250;
+                text-transform: uppercase;
+                font-family: 'Khand'; }
+    body .home {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      width: 100%;
+      height: 500px;
+      background-image: url(/images/Home_Cover.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100%;
+      background-attachment: fixed; }
+      body .home .gradient {
+        width: 100%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        background: linear-gradient(45deg, rgba(1, 65, 54, 0.9) 0%, rgba(2, 116, 95, 0.9) 62%, rgba(2, 116, 95, 0.9) 100%); }
+        body .home .gradient .container {
+          width: 80%;
+          display: flex;
+          align-content: center;
+          justify-content: center; }
+          body .home .gradient .container .row_main_row {
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            justify-content: center; }
+            body .home .gradient .container .row_main_row .presentation {
+              display: flex;
+              flex-direction: column;
+              text-align: center;
+              width: 50%; }
+              body .home .gradient .container .row_main_row .presentation h1 {
+                color: white;
+                font-size: 25px;
+                font-family: 'Khand';
+                font-weight: bolder;
+                margin: 125px 0 50px 0; }
+              body .home .gradient .container .row_main_row .presentation p {
+                color: white;
+                font-size: 10px;
+                margin: 25px 10px 25px 10px;
+                border: 2px solid white;
+                padding: 25px; }
+            body .home .gradient .container .row_main_row .horraires {
+              text-align: center;
+              width: 50%; }
+              body .home .gradient .container .row_main_row .horraires h3 {
+                color: white;
+                font-family: 'Cabin Condensed';
+                font-size: 20px;
+                margin: 125px 0 50px 0; }
+              body .home .gradient .container .row_main_row .horraires li {
+                list-style: none;
+                color: white;
+                margin: 10px 0 10px 0; }
+    body .fonctionement {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      width: 100%;
+      height: auto; }
+      body .fonctionement .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        text-align: center; }
+        body .fonctionement .container h1 {
+          color: #014034;
+          font-size: 25px;
+          font-family: 'Khand';
+          font-weight: bolder;
+          margin: 50px 0 50px 0; }
+        body .fonctionement .container .row_main_row {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          text-align: center; }
+          body .fonctionement .container .row_main_row .first_row .etape {
+            margin: 50px 10px 50px 10px;
+            box-shadow: 2px 3px 2.5px 0px #b1b3b9; }
+            body .fonctionement .container .row_main_row .first_row .etape h3 {
+              font-family: 'Cabin Condensed';
+              margin: 10px 10px 25px 10px; }
+            body .fonctionement .container .row_main_row .first_row .etape img {
+              margin: 10px 0 10px 0; }
+            body .fonctionement .container .row_main_row .first_row .etape p {
+              padding: 15px 10px 15px 10px; }
+          body .fonctionement .container .row_main_row .second_row .etape {
+            margin: 50px 10px 50px 10px;
+            box-shadow: 2px 3px 2.5px 0px #b1b3b9; }
+            body .fonctionement .container .row_main_row .second_row .etape h3 {
+              font-family: 'Cabin Condensed';
+              margin: 10px 10px 25px 10px; }
+            body .fonctionement .container .row_main_row .second_row .etape img {
+              margin: 10px 0 10px 0; }
+            body .fonctionement .container .row_main_row .second_row .etape p {
+              padding: 15px 10px 15px 10px; }
+    body .services {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      width: 100%;
+      height: auto;
+      margin-bottom: 25px; }
+      body .services .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        text-align: center; }
+        body .services .container h1 {
+          color: #014034;
+          font-size: 25px;
+          font-family: 'Khand';
+          font-weight: bolder;
+          margin: 25px 0 25px 0; }
+        body .services .container .row_main_row {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          text-align: center; }
+          body .services .container .row_main_row .service {
+            display: flex;
+            align-content: center;
+            text-align: center;
+            width: 100%; }
+            body .services .container .row_main_row .service .service_1 {
+              width: 50%; }
+              body .services .container .row_main_row .service .service_1 img {
+                margin: 10px 10px 10px 10px; }
+              body .services .container .row_main_row .service .service_1 h3 {
+                color: #014034;
+                font-family: 'Cabin Condensed';
+                margin: 15px 10px 15px 10px; }
+              body .services .container .row_main_row .service .service_1 a {
+                display: inline-block;
+                padding: 6px 9px;
+                text-decoration: none;
+                position: relative;
+                border: 2px solid #445561;
+                border-radius: 3px;
+                text-transform: uppercase;
+                letter-spacing: 0.1em;
+                text-align: left;
+                color: #014034;
+                overflow: hidden;
+                font-family: 'Khand';
+                z-index: 0; }
+                body .services .container .row_main_row .service .service_1 a:before, body .services .container .row_main_row .service .service_1 a:after {
+                  content: attr(wipe);
+                  padding-top: inherit;
+                  padding-bottom: inherit;
+                  white-space: nowrap;
+                  position: absolute;
+                  top: 0;
+                  overflow: hidden;
+                  color: #F1F1F2;
+                  background: #014034; }
+                body .services .container .row_main_row .service .service_1 a:before {
+                  left: 0;
+                  text-indent: 9px;
+                  width: 0; }
+                body .services .container .row_main_row .service .service_1 a:after {
+                  padding-left: inherit;
+                  padding-right: inherit;
+                  left: 100%;
+                  text-indent: calc(-100% - 36px);
+                  transition: 0.2s ease-in-out; }
+                body .services .container .row_main_row .service .service_1 a:hover:before {
+                  width: 100%;
+                  transition: width 0.2s ease-in-out; }
+                body .services .container .row_main_row .service .service_1 a:hover:after {
+                  left: 0;
+                  text-indent: 0;
+                  transition: 0s 0.2s ease-in-out; }
+    body .job {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      height: auto;
+      background-image: url(/images/bycicle_delivery.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      height: 350px; }
+      body .job .gradient {
+        width: 100%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        background: linear-gradient(45deg, rgba(1, 65, 54, 0.9) 0%, rgba(2, 116, 95, 0.9) 62%, rgba(2, 116, 95, 0.9) 100%); }
+        body .job .gradient .container {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          width: 80%;
+          text-align: center; }
+          body .job .gradient .container h1 {
+            color: #f1f1f2;
+            font-size: 25px;
+            font-family: 'Khand';
+            font-weight: bolder;
+            margin: 0 0 50px 0; }
+          body .job .gradient .container .row_main_row {
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            text-align: center; }
+            body .job .gradient .container .row_main_row p {
+              color: #f1f1f2;
+              margin: 25px 0 50px 0; }
+            body .job .gradient .container .row_main_row a {
+              padding: 6px 9px;
+              text-decoration: none;
+              position: relative;
+              border: 2px solid #f1f1f2;
+              border-radius: 3px;
+              text-transform: uppercase;
+              letter-spacing: 0.1em;
+              text-align: center;
+              color: #f1f1f2;
+              font-family: 'Khand';
+              margin: 25px 0 25px 0;
+              width: 15%;
+              z-index: 0; }
+              body .job .gradient .container .row_main_row a:hover {
+                background-color: #f1f1f2;
+                color: #014034; }
+    body .livraison {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      width: 100%;
+      height: auto;
+      margin-bottom: 25px; }
+      body .livraison .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        text-align: center; }
+        body .livraison .container h1 {
+          color: #014034;
+          font-size: 25px;
+          font-family: 'Khand';
+          font-weight: bolder;
+          margin: 50px 0 50px 0; }
+        body .livraison .container .row_main_row {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          text-align: center;
+          background-image: url(/images/plan_paris.png);
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center;
+          height: 350px; }
+    body .commande {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      width: 100%;
+      height: auto; }
+      body .commande .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        text-align: center; }
+        body .commande .container h1 {
+          color: #014034;
+          font-size: 25px;
+          font-family: 'Khand';
+          font-weight: bolder;
+          margin: 50px 0 50px 0; }
+        body .commande .container .row_main_row {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 100%; }
+          body .commande .container .row_main_row .step_1 {
+            width: 100%; }
+            body .commande .container .row_main_row .step_1 h3 {
+              color: #014034;
+              font-family: 'Cabin Condensed';
+              margin: 15px 10px 15px 10px; }
+            body .commande .container .row_main_row .step_1 form {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              text-align: center;
+              margin-bottom: 12px; }
+              body .commande .container .row_main_row .step_1 form input {
+                margin: 10px 0 5px 0;
+                text-align: center;
+                color: #014034; }
+          body .commande .container .row_main_row .step_2 {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center; }
+            body .commande .container .row_main_row .step_2 h3 {
+              color: #014034;
+              font-family: 'Cabin Condensed';
+              margin: 30px 20px 30px 20px; }
+            body .commande .container .row_main_row .step_2 .sub_form {
+              display: flex;
+              margin: 25px 0px 25px 0; }
+              body .commande .container .row_main_row .step_2 .sub_form .choix_1 {
+                margin: 20px;
+                padding: 10px; }
+              body .commande .container .row_main_row .step_2 .sub_form .choix_2 {
+                margin: 20px; }
+              body .commande .container .row_main_row .step_2 .sub_form .choix_3 {
+                margin: 20px; }
+              body .commande .container .row_main_row .step_2 .sub_form .choix_4 {
+                margin: 20px; }
+            body .commande .container .row_main_row .step_2 .time {
+              display: flex;
+              flex-direction: row;
+              align-items: center; }
+              body .commande .container .row_main_row .step_2 .time span {
+                font-family: 'Khand';
+                color: #014034; }
+              body .commande .container .row_main_row .step_2 .time input {
+                margin: 20px 20px 20px 20px;
+                font-family: 'Khand'; }
+            body .commande .container .row_main_row .step_2 .bouton {
+              padding: 12px 18px;
+              position: relative;
+              border: 2px solid #f1f1f2;
+              border-radius: 3px;
+              text-transform: uppercase;
+              letter-spacing: 0.1em;
+              text-align: center;
+              color: #f1f1f2;
+              font-family: 'Khand';
+              margin: 50px 0 50px 0;
+              width: 15%;
+              z-index: 0; }
+              body .commande .container .row_main_row .step_2 .bouton:hover {
+                background-color: #f1f1f2;
+                color: #014034; }
+              body .commande .container .row_main_row .step_2 .bouton a {
+                text-decoration: none;
+                color: #014034; }
+    body .footer {
+      display: flex;
+      align-content: center;
+      text-align: center;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      height: auto;
+      background-color: #0C2733; }
+      body .footer .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+        text-align: center; }
+        body .footer .container .location {
+          display: flex;
+          align-content: center;
+          width: 33%;
+          flex-direction: column; }
+          body .footer .container .location h3 {
+            color: #f1f1f2;
+            font-family: 'Cabin Condensed';
+            margin: 15px 10px 15px 10px;
+            font-size: 15px; }
+          body .footer .container .location ul {
+            display: flex;
+            flex-direction: column;
+            align-self: center; }
+            body .footer .container .location ul li {
+              list-style: none;
+              color: #f1f1f2;
+              left: 25px;
+              margin: 5px 0 0 0;
+              text-align: left;
+              font-family: 'Khand';
+              font-size: 10px; }
+              body .footer .container .location ul li i {
+                margin: 5px 5px 0 0; }
+        body .footer .container .reseau_sociaux {
+          display: flex;
+          align-content: center;
+          width: 33%;
+          flex-direction: column;
+          text-align: center; }
+          body .footer .container .reseau_sociaux h3 {
+            color: #f1f1f2;
+            font-family: 'Cabin Condensed';
+            margin: 15px 10px 15px 10px;
+            font-size: 15px; }
+          body .footer .container .reseau_sociaux ul {
+            display: flex;
+            flex-direction: row;
+            align-self: center; }
+            body .footer .container .reseau_sociaux ul li {
+              list-style: none;
+              color: #f1f1f2;
+              margin: 10px 10px;
+              text-align: center; }
+              body .footer .container .reseau_sociaux ul li i {
+                font-size: 1em; }
+        body .footer .container .About {
+          display: flex;
+          align-content: center;
+          width: 33%;
+          flex-direction: column;
+          text-align: center; }
+          body .footer .container .About h3 {
+            color: #f1f1f2;
+            font-family: 'Cabin Condensed';
+            margin: 15px 10px 15px 10px;
+            font-size: 15px; }
+          body .footer .container .About p {
+            color: #f1f1f2;
+            margin: 5px;
+            font-family: 'Khand'; }
+      body .footer p {
+        color: #f1f1f2;
+        font-family: 'Khand';
+        font-size: 10px; } }
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  body {
+    margin: 0;
+    padding: 0; }
+    body .navbar {
+      display: flex;
+      flex-direction: row;
+      height: 150px;
+      width: 100%;
+      position: absolute;
+      background-color: #014034; }
+      body .navbar .row {
+        display: flex;
+        flex-direction: row; }
+        body .navbar .row .logo {
+          display: none; }
+        body .navbar .row .items {
+          display: flex;
+          flex-direction: column;
+          width: 50%;
+          text-align: center; }
+          body .navbar .row .items ul {
+            display: flex;
+            flex-direction: column; }
+            body .navbar .row .items ul li {
+              list-style: none;
+              margin: 10px 0 10px 0; }
+              body .navbar .row .items ul li a {
+                text-decoration: none;
+                color: #014034;
+                font-size: 20px;
+                font-weight: 125;
+                font-family: 'Khand'; }
+        body .navbar .row .registre {
+          display: flex;
+          flex-direction: column;
+          width: 50%;
+          text-align: center; }
+          body .navbar .row .registre ul {
+            display: flex;
+            flex-direction: column; }
+            body .navbar .row .registre ul li {
+              list-style: none;
+              margin: 10px 0 10px 0; }
+              body .navbar .row .registre ul li a {
+                text-decoration: none;
+                color: #014034;
+                font-size: 20px;
+                font-weight: 125;
+                font-family: 'Khand'; }
+    body .home {
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      width: 100%;
+      background-image: none;
+      height: auto; }
+      body .home .gradient {
+        background-color: transparent; }
+        body .home .gradient .container {
+          display: flex;
+          flex-direction: column; }
+          body .home .gradient .container .row_main_row {
+            display: flex;
+            flex-direction: column; }
+            body .home .gradient .container .row_main_row .presentation {
+              display: flex;
+              flex-direction: column; }
+              body .home .gradient .container .row_main_row .presentation h1 {
+                color: #014034;
+                font-size: 25px;
+                font-family: 'Khand';
+                font-weight: bolder;
+                margin: 60px 0 25px 0; }
+              body .home .gradient .container .row_main_row .presentation p {
+                color: white;
+                font-size: 10px;
+                margin: 25px 10px 25px 10px;
+                border: 2px solid white;
+                padding: 25px; } }
+
+/*# sourceMappingURL=main.css.map */

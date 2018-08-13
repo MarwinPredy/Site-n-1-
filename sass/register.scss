@@ -1,0 +1,385 @@
+$primary_color : #014034;
+
+body{
+    background-color: $primary_color;
+    margin: 0;
+    padding: 0;
+
+    .Registre{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+        height: 1024px;
+
+        .container{
+            width: 80%;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+
+            .row_main_row{
+                display: flex;
+                width: 50%;
+                flex-direction: column;
+                align-content: center;
+                justify-content: center;
+
+                .first_etape{
+                    height: auto;
+                    width: 100%;
+                    background-color: #f1f1f2;
+                    box-sizing: border-box;
+                    text-align: center;
+                    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+                    h1{
+                        color: $primary_color;
+                        font-size: 50px;
+                        font-family: 'Khand';
+                        font-weight: bolder;
+                        margin: 50px 20px 50px 20px;
+                    }
+
+                    form{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        input {
+                            font-family: 'Cabin Condensed';
+                            outline: 0;
+                            background: #f2f2f2;
+                            border: 2px solid $primary_color;
+                            margin: 20px 0 0 0;
+                            padding: 15px;
+                            box-sizing: border-box;
+                            font-size: 14px;
+                            width: 80%;
+                            text-align: center;
+
+                        }
+
+                        .buton{
+                            font-family: 'Cabin Condensed';
+                            outline: 0;
+                            background: $primary_color;
+                            border: 2px solid #f1f1f2;
+                            color: #f1f1f2;
+                            margin: 20px 0 20px 0;
+                            padding: 15px;
+                            box-sizing: border-box;
+                            font-size: 14px;
+                            width: 30%;
+                            text-align: center;
+                            text-decoration: none;
+
+                            &:hover{
+                                background-color: #f1f1f2;
+                                border: 2px solid $primary_color;
+                                color: $primary_color;
+                            }
+
+                        }
+
+                        p{
+                            font-family: 'Cabin Condensed';
+                            margin: 20px 0 20px 0;
+                            color: #0C2733; 
+
+                            a{
+                                text-decoration: none;
+                                font-family: 'Cabin Condensed';
+                                color: $primary_color;
+                            }
+                        }
+                    }                   
+                }
+
+                .second_etape{
+
+                    height: auto;
+                    width: 100%;
+                    background-color: #f1f1f2;
+                    box-sizing: border-box;
+                    text-align: center;
+                    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+                    h1{
+                        color: $primary_color;
+                        font-size: 50px;
+                        font-family: 'Khand';
+                        font-weight: bolder;
+                        margin: 50px 20px 50px 20px;
+                    }
+
+                    form{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        input {
+                            font-family: 'Cabin Condensed';
+                            outline: 0;
+                            background: #f2f2f2;
+                            border: 2px solid $primary_color;
+                            margin: 20px 0 0 0;
+                            padding: 15px;
+                            box-sizing: border-box;
+                            font-size: 14px;
+                            width: 80%;
+                            text-align: center;
+
+                        }
+
+                        .but{
+                            display: flex;
+                            width: 100%;
+                            padding-left: 275px;
+                            margin: 30px 0 0 0;
+
+
+
+                            .return{
+                                font-family: 'Cabin Condensed';
+                                outline: 0;
+                                background: $primary_color;
+                                border: 2px solid #f1f1f2;
+                                color: #f1f1f2;
+                                margin: 20px 0 20px 0;
+                                padding: 15px;
+                                box-sizing: border-box;
+                                font-size: 14px;
+                                width: 30%;
+                                text-align: center;
+
+                                &:hover{
+                                    background-color: #f1f1f2;
+                                    border: 2px solid $primary_color;
+                                    color: $primary_color;
+                                }
+
+                            }
+
+
+                            .submit{
+                                font-family: 'Cabin Condensed';
+                                outline: 0;
+                                background: $primary_color;
+                                border: 2px solid #f1f1f2;
+                                color: #f1f1f2;
+                                margin: 20px 0 20px 0;
+                                padding: 15px;
+                                box-sizing: border-box;
+                                font-size: 14px;
+                                width: 30%;
+                                text-align: center;
+
+                                &:hover{
+                                    background-color: #f1f1f2;
+                                    border: 2px solid $primary_color;
+                                    color: $primary_color;
+                                }
+
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width :320px) and (max-width: 425px){
+
+    body{
+        background-color: $primary_color;
+        margin: 0;
+        padding: 0;
+
+        .Registre{
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            width: 100%;
+            height: 700px;;
+
+            .container{
+                width: 100%;
+                display: flex;
+                align-content: center;
+                justify-content: center;
+
+                .row_main_row{
+                    display: flex;
+                    width: 70%;
+                    flex-direction: column;
+                    align-content: center;
+                    justify-content: center;
+
+                    .first_etape{
+                        height: auto;
+                        width: 100%;
+                        background-color: #f1f1f2;
+                        box-sizing: border-box;
+                        text-align: center;
+                        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+                        h1{
+                            color: $primary_color;
+                            font-size: 25px;
+                            font-family: 'Khand';
+                            font-weight: bolder;
+                            margin: 25px 10px 25px 10px;
+                        }
+
+                        form{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+
+                            input {
+                                font-family: 'Cabin Condensed';
+                                outline: 0;
+                                background: #f2f2f2;
+                                border: 2px solid $primary_color;
+                                margin: 20px 0 0 0;
+                                padding: 15px;
+                                box-sizing: border-box;
+                                font-size: 14px;
+                                width: 80%;
+                                text-align: center;
+
+                            }
+
+                            .buton{
+                                font-family: 'Cabin Condensed';
+                                outline: 0;
+                                background: $primary_color;
+                                border: 2px solid #f1f1f2;
+                                color: #f1f1f2;
+                                margin: 20px 0 20px 0;
+                                padding: 15px;
+                                box-sizing: border-box;
+                                font-size: 14px;
+                                width: 50%;
+                                text-align: center;
+                                text-decoration: none;
+
+                                &:hover{
+                                    background-color: #f1f1f2;
+                                    border: 2px solid $primary_color;
+                                    color: $primary_color;
+                                }
+
+                            }
+
+                            p{
+                                font-family: 'Cabin Condensed';
+                                margin: 20px 0 20px 0;
+                                color: #0C2733; 
+
+                                a{
+                                    text-decoration: none;
+                                    font-family: 'Cabin Condensed';
+                                    color: $primary_color;
+                                }
+                            }
+                        }                   
+                    }
+
+                    .second_etape{
+
+                        height: auto;
+                        width: 100%;
+                        background-color: #f1f1f2;
+                        box-sizing: border-box;
+                        text-align: center;
+                        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+                        h1{
+                            color: $primary_color;
+                            font-size: 25px;
+                            font-family: 'Khand';
+                            font-weight: bolder;
+                            margin: 25px 10px 25px 10px;
+                        }
+
+                        form{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+
+                            input {
+                                font-family: 'Cabin Condensed';
+                                outline: 0;
+                                background: #f2f2f2;
+                                border: 2px solid $primary_color;
+                                margin: 20px 0 0 0;
+                                padding: 15px;
+                                box-sizing: border-box;
+                                font-size: 14px;
+                                width: 80%;
+                                text-align: center;
+
+                            }
+
+                            .but{
+                                display: flex;
+                                width: 100%;
+                                padding-right: 250px;
+
+
+
+                                .return{
+                                    font-family: 'Cabin Condensed';
+                                    outline: 0;
+                                    background: $primary_color;
+                                    border: 2px solid #f1f1f2;
+                                    color: #f1f1f2;
+                                    margin: 20px 0 20px 0;
+                                    padding: 15px;
+                                    box-sizing: border-box;
+                                    font-size: 14px;
+                                    width: 30%;
+                                    text-align: center;
+
+                                    &:hover{
+                                        background-color: #f1f1f2;
+                                        border: 2px solid $primary_color;
+                                        color: $primary_color;
+                                    }
+
+                                }
+
+
+                                .submit{
+                                    font-family: 'Cabin Condensed';
+                                    outline: 0;
+                                    background: $primary_color;
+                                    border: 2px solid #f1f1f2;
+                                    color: #f1f1f2;
+                                    margin: 20px 0 20px 0;
+                                    padding: 15px;
+                                    box-sizing: border-box;
+                                    font-size: 14px;
+                                    width: 60%;
+                                    text-align: center;
+
+                                    &:hover{
+                                        background-color: #f1f1f2;
+                                        border: 2px solid $primary_color;
+                                        color: $primary_color;
+                                    }
+
+                                }
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
